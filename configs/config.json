@@ -1,0 +1,12 @@
+{
+    "Stripe_Token": "",
+    "Product_ID": "",
+    "Port": 8080,
+    "Debug": false,
+    "Redirect_URL": "",
+    "Payment_Cycle": "month",
+    "Enforce_Currency": false,
+    "Currency": "usd",
+    "Minimum_Amount": 0,
+    "Bad_Payment_Link_Message": "Invalid payment link."
+}

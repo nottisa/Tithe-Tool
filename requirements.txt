@@ -1,0 +1,15 @@
+# Outputting
+colorama # formatted colored outputs
+
+# Webserver/API
+uvicorn # starting the app in production environment
+fastapi # base FastAPI webserver libraryy
+Jinja2 # Jinja2 library for HTML and templates support
+#--- Additional features requirements ---#
+itsdangerous # itsdangerous is a requirement for starlette's request.session support
+python-multipart # python-multipart is a requirement for FastAPI's Form(...) type POST routes
+#--- Just in case requirement libraries ---#
+starlette # starlette should be pre-installed with fastapi, but is here for request.session support
+
+# Request libraries
+aiohttp # async requests
